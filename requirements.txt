@@ -1,0 +1,27 @@
+# Core Computer Vision Libraries
+opencv-python==4.10.0.84
+numpy>=1.21.0
+dlib==19.24.6
+face-recognition==1.3.0
+imutils==0.5.4
+
+# Image Processing and Annotation Tools
+labelimg==1.8.6
+pillow>=9.0.0
+scikit-image>=0.19.0
+
+# Data Management and Analysis
+pandas>=1.3.0
+openpyxl>=3.0.9  # For Excel file handling
+xlrd>=2.0.1      # For Excel file reading
+xlwt>=1.3.0      # For Excel file writing
+
+# Utility Libraries
+tqdm>=4.62.0     # For progress bars
+matplotlib>=3.4.0 # For plotting and visualization
+scipy>=1.7.0     # For scientific computations
+
+# Optional but Recommended
+pytest>=6.2.5     # For testing
+black>=21.5b2     # For code formatting
+flake8>=3.9.0     # For code linting
