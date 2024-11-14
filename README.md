@@ -4,8 +4,6 @@
 
 This project implements various computer vision techniques for image processing, video analysis, and face recognition to create an engagement tracking system for young learners. It includes comprehensive implementations for image manipulation, video processing, annotations, and face recognition capabilities.
 
-## Features
-
 # Image Processing 📁
 
 This repository contains a collection of Python scripts for various image processing techniques. Each script performs a specific operation that is commonly used in image analysis, ranging from basic transformations to more advanced processing tasks.
@@ -90,21 +88,38 @@ This repository contains a collection of Python scripts for various image proces
     - **Output:** ![template](https://github.com/user-attachments/assets/1714fe6f-4728-4af0-915a-8c603fd4b748)
 
       
-### Video Processing
+### Video Processing 🎥
+
+This repository contains a collection of Python scripts for various video processing techniques. Each script focuses on a different aspect of video manipulation, from basic recording to real-time streaming and video analysis.
 
 #### Libraries Used:
 - **OpenCV**: Version 4.10.0.84
 
-#### Features:
-1. **Multi-video Processing**
-   - Batch image processing from folders
-   - Dimension analysis and display
+### Project Structure
 
-2. **Real-time Processing**
-   - FPS calculation and display
-   - Live video capture and saving
-   - Video stacking and concatenation
-   - Webcam stream processing
+- **`video_processing_techniques`** 🎥
+
+  - **`Video_recording.py`**
+    - Allows recording videos using your webcam or any connected camera. It captures the video feed, processes it, and saves it to the specified file format.
+    - **Output:** ![videorecording](https://github.com/user-attachments/assets/5631ac89-4a9d-4bbf-8c2c-e96b3bf2da27)
+
+
+  - **`Video_stacking.py`**
+    - Stacks multiple video streams into a single video frame, displaying them simultaneously in a grid format. Useful for monitoring multiple video feeds in one view.
+    - **Output:** ![videostack](https://github.com/user-attachments/assets/404f9df0-69c7-4468-baca-126f93205db9)
+
+  - **`video_Fps_Calculator.py`**
+    - Calculates the frames per second (FPS) of a video stream. This script helps in performance analysis by providing real-time FPS data.
+    - **Output:** ![videofps](https://github.com/user-attachments/assets/cae71b5d-9502-4eee-8962-cbc5af45501b)
+
+  - **`video_multivideostream.py`**
+    - Processes and displays multiple video streams simultaneously. This script is designed to handle multiple video inputs and render them together, allowing for complex video processing and comparison tasks.
+    - **Output:** (Visuals not provided)
+
+  - **`video_stream.py`**
+    - Streams video from a file or camera in real-time. It serves as a basic utility for video streaming, which can be extended for more advanced processing tasks.
+    - **Output:** ![stream](https://github.com/user-attachments/assets/d9bf83af-0f4f-4aef-8da1-b412441fd579)
+
 
 ### Annotations
 
