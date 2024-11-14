@@ -143,7 +143,9 @@ This folder contains resources for model training and evaluation annotations.
 - **segregation.py**: Used for dividing data into specific categories or groups.
 
 
-### Face Recognition
+# Face Recognition 🧑‍💻
+
+This project leverages Python, OpenCV, dlib, and the face_recognition library to provide functionality for face recognition and attentiveness analysis. The project can detect and log faces, analyze attentiveness based on head pose, and calculate attention scores. Recognized faces and attention metrics are saved with screenshots for further analysis. 
 
 #### Libraries Used:
 - **OpenCV**: Version 4.10.0.84
@@ -151,17 +153,66 @@ This folder contains resources for model training and evaluation annotations.
 - **face_recognition**: Version 1.3.0
 - **imutils**: Version 0.5.4
 
-#### Core Features:
-1. **Attendance System**
-   - Face recognition implementation
-   - Attendance recording and saving
-   - Excel sheet integration
-   - Date-time tracking
+## Files 📂
 
-2. **Analysis Tools**
-   - Facial landmark detection
-   - Attention score calculation
-   - Average attention score tracking
+- **attention_score.py**  
+  Detects faces, logs attendance with attention scores, and saves screenshots while calculating an average attention score.  
+  **Output**:  
+ ![attentionscoree](https://github.com/user-attachments/assets/f7b4a615-8c78-45d8-8cf2-37d87a21c1ce)
+![attentionscoreexcel](https://github.com/user-attachments/assets/1239d957-56c3-4d23-81ad-5aac3388d898)
+
+
+- **ave_attention_score.py**  
+  Logs attendance and attention scores using facial landmarks to assess attentiveness.  
+  **Output**:  
+  ![avgattentionscore](https://github.com/user-attachments/assets/77c5b42e-8dbe-47ad-bbcf-a2f8117cc35d)
+
+  ![avgattentionscoreexcel](https://github.com/user-attachments/assets/48d0e61c-3637-4220-94c5-04a8409600ba)
+
+
+- **excel_sc_dt.py**  
+  Captures video, performs face recognition, logs attendance with screenshots every 30 seconds, and tracks attention status.  
+  **Output**:  
+  ![excelscdt](https://github.com/user-attachments/assets/efb7c4c0-b16d-42a1-b729-0db53a4e555d)
+
+
+- **excel_sc.py**  
+  Similar to `excel_sc_dt.py`, with a different configuration for logging and capturing screenshots.  
+  **Output**:  
+  ![excelsc](https://github.com/user-attachments/assets/6404fc4a-56f8-4065-83a8-7d2534ebbb99)
+  ![excelscexcell](https://github.com/user-attachments/assets/943a6de2-52ec-4197-aa7c-4ceeebda68eb)
+
+
+
+- **Face_Recog.py**  
+  Basic face detection and recognition using the `face_recognition` library.  
+  **Output**:  
+  ![facerecog](https://github.com/user-attachments/assets/ad4f20fd-7b32-483e-9be3-1872730b08e2)
+
+
+- **landmark.py**  
+  Uses dlib’s facial landmark predictor to analyze attentiveness based on head pose, logging attention scores and saving annotated screenshots.  
+  **Output**:  
+  ![landmark](https://github.com/user-attachments/assets/010792ce-3792-4c11-862d-692221e7b2d9)
+
+  ![landmarkss](https://github.com/user-attachments/assets/f1bff5e3-c436-4179-b201-57435c2d267b)
+
+
+- **text.py**  
+  Contains helper functions used across other scripts.  
+  **Output**:  
+  ![text py](https://github.com/user-attachments/assets/9c62602c-bd21-4cd3-8b7c-5133b641c322)
+ 
+  ![textpyexcel](https://github.com/user-attachments/assets/a3f0e534-615a-4a13-b17a-4b7dae548eee)
+
+
+- **tools.py**  
+  Additional tools and utilities for face recognition and attentiveness analysis.  
+  **Output**:  
+  ![toolspy](https://github.com/user-attachments/assets/f0dc765b-727a-4c56-b056-5df235e245a9)
+
+  ![toolsexcel](https://github.com/user-attachments/assets/f1bb2fc4-c43b-40c9-9839-3be21ab5fb39)
+
 
 ## Installation
 
